@@ -32,7 +32,7 @@ h1 {
 
 .controls {
     background: #333;
-    color #fff;
+    color: #fff;
     width: 60%;
 
     border-bottom-left-radius: 10px;
@@ -49,4 +49,33 @@ h1 {
     border: 0;
     background: transparent;
     cursor: pointer;
+}
+
+.controls .fa-play {
+    color: #28a745;
+}
+
+.controls .fa-stop {
+    color: #dc3545;
+}
+
+.controls .fa-pause {
+    color: #fff;
+}
+
+.controls .timestamp {
+    color : #fff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+@media(max-width: 800px) {
+    .screen 
+    .controls {
+        width: 90%;
+    }
 }
